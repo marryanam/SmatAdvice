@@ -1,0 +1,19 @@
+/*---------------------------------    general    -------------------------------*/
+@import "general/style_reset";
+@import "general/grid";
+@import "general/fonts";
+@import "general/general";
+@import "general/swiper";
+
+/*---------------------------------    components    -------------------------------*/
+@import "components/titles";
+@import "components/header";
+@import "components/footer";
+@import "components/buttons";
+@import "components/modal";
+@import "components/forms";
+
+/*---------------------------------    pages    -------------------------------*/
+
+// front-page
+@import "pages/index";

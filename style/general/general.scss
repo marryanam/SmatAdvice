@@ -1,0 +1,53 @@
+/*---------------------------------    colors    -------------------------------*/
+
+$violet: #3f0064;
+$darker-white: #fefefe;
+$light-black: #151515;
+$gray: #a1a1a1;
+
+/*---------------------------------    general    -------------------------------*/
+
+html,
+body {
+    box-sizing: border-box;
+    font-family: 'Cera Pro';
+    font-weight: 400;
+    font-size: 14px;
+    overflow-x: hidden;
+    position: relative;
+    color: $light-black;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*---------------------------------    scroll    -------------------------------*/
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 10px;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-track {
+    background-color: $darker-white;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: $violet;
+    cursor: pointer;
+}
+
+::placeholder {
+    letter-spacing: 0.28px;
+    color: #000;
+    opacity: 0.8;
+}
